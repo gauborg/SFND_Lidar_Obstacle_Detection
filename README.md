@@ -18,34 +18,19 @@ In this course we will be talking about sensor fusion, whch is the process of ta
 ### Linux Ubuntu 16
 
 Ubuntu
-$> sudo apt install libpcl-dev
-$> cd ~
-$> git clone https://github.com/udacity/SFND_Lidar_Obstacle_Detection.git
-$> cd SFND_Lidar_Obstacle_Detection
-$> mkdir build && cd build
-$> cmake ..
-$> make
-$> ./environment
+sudo apt install libpcl-dev
+cd ~
+
+
+mkdir build && cd build
+cmake ..
+make
+/environment
+
 Windows
 http://www.pointclouds.org/downloads/windows.html
-
-MAC
-Install via Homebrew
-install homebrew
-update homebrew
-$> brew update
-add homebrew science tap
-$> brew tap brewsci/science
-view pcl install options
-$> brew options pcl
-install PCL
-$> brew install pcl
-Prebuilt Binaries via Universal Installer
-http://www.pointclouds.org/downloads/macosx.html
-NOTE: very old version
 
 Build from Source
 PCL Source Github
 
 PCL Mac Compilation Docs
-
