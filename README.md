@@ -17,15 +17,35 @@ In this course we will be talking about sensor fusion, whch is the process of ta
 
 ### Linux Ubuntu 16
 
-Install PCL, C++
+Ubuntu
+$> sudo apt install libpcl-dev
+$> cd ~
+$> git clone https://github.com/udacity/SFND_Lidar_Obstacle_Detection.git
+$> cd SFND_Lidar_Obstacle_Detection
+$> mkdir build && cd build
+$> cmake ..
+$> make
+$> ./environment
+Windows
+http://www.pointclouds.org/downloads/windows.html
 
-The link here is very helpful, 
-https://larrylisky.com/2014/03/03/installing-pcl-on-ubuntu/
+MAC
+Install via Homebrew
+install homebrew
+update homebrew
+$> brew update
+add homebrew science tap
+$> brew tap brewsci/science
+view pcl install options
+$> brew options pcl
+install PCL
+$> brew install pcl
+Prebuilt Binaries via Universal Installer
+http://www.pointclouds.org/downloads/macosx.html
+NOTE: very old version
 
-A few updates to the instructions above were needed.
+Build from Source
+PCL Source Github
 
-* libvtk needed to be updated to libvtk6-dev instead of (libvtk5-dev). The linker was having trouble locating libvtk5-dev while building, but this might not be a problem for everyone.
-
-* BUILD_visualization needed to be manually turned on, this link shows you how to do that,
-http://www.pointclouds.org/documentation/tutorials/building_pcl.php
+PCL Mac Compilation Docs
 
