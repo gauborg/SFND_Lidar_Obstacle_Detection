@@ -21,11 +21,11 @@ Ubuntu
 sudo apt install libpcl-dev
 cd ~
 
-
-mkdir build && cd build
-cmake ..
-make
-/environment
+1. Go to SFND_Lidar_Obstacle_Detection directory
+2. mkdir build && cd build
+3. cmake ..
+4. make
+5. /environment
 
 Windows
 http://www.pointclouds.org/downloads/windows.html
