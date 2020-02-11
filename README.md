@@ -14,47 +14,50 @@ Sensor fusion is the process of taking data from multiple sensors and combining 
 
 ## Installation
 
-### Linux Ubuntu 16
+### Ubuntu 
 
-Ubuntu
-sudo apt install libpcl-dev
-cd ~
-
+```bash
+$> sudo apt install libpcl-dev
+$> cd ~
 $> git clone https://github.com/udacity/SFND_Lidar_Obstacle_Detection.git
-$> cd SFND_Lidar_Obstacle_Detection directory
+$> cd SFND_Lidar_Obstacle_Detection
 $> mkdir build && cd build
 $> cmake ..
 $> make
 $> ./environment
+```
 
+### Windows 
 
-Windows
 http://www.pointclouds.org/downloads/windows.html
 
+### MAC
 
-MAC
-
-Install via Homebrew
-1. install homebrew
-2. update homebrew
-    $> brew update
-3. add homebrew science tap
-    $> brew tap brewsci/science
+#### Install via Homebrew
+1. install [homebrew](https://brew.sh/)
+2. update homebrew 
+	```bash
+	$> brew update
+	```
+3. add  homebrew science [tap](https://docs.brew.sh/Taps) 
+	```bash
+	$> brew tap brewsci/science
+	```
 4. view pcl install options
-    $> brew options pcl
-5. install PCL
-    $> brew install pcl
+	```bash
+	$> brew options pcl
+	```
+5. install PCL 
+	```bash
+	$> brew install pcl
+	```
 
-Prebuilt Binaries via Universal Installer
-http://www.pointclouds.org/downloads/macosx.html
-NOTE: very old version
+#### Prebuilt Binaries via Universal Installer
+http://www.pointclouds.org/downloads/macosx.html  
+NOTE: very old version 
 
-Build from Source
-PCL Source Github
+#### Build from Source
 
-PCL Mac Compilation Docs
+[PCL Source Github](https://github.com/PointCloudLibrary/pcl)
 
-Build from Source
-PCL Source Github
-
-PCL Mac Compilation Docs
+[PCL Mac Compilation Docs](http://www.pointclouds.org/documentation/tutorials/compiling_pcl_macosx.php)
