@@ -20,11 +20,12 @@ Ubuntu
 sudo apt install libpcl-dev
 cd ~
 
-1. Go to SFND_Lidar_Obstacle_Detection directory
-2. mkdir build && cd build
-3. cmake ..
-4. make
-5. /environment
+$> git clone https://github.com/udacity/SFND_Lidar_Obstacle_Detection.git
+$> cd SFND_Lidar_Obstacle_Detection directory
+$> mkdir build && cd build
+$> cmake ..
+$> make
+$> ./environment
 
 
 Windows
@@ -34,11 +35,12 @@ http://www.pointclouds.org/downloads/windows.html
 MAC
 
 Install via Homebrew
-install homebrew
-update homebrew
-$> brew update
-add homebrew science tap
-$> brew tap brewsci/science
+1. install homebrew
+2. update homebrew
+    $> brew update
+   
+3. add homebrew science tap
+    $> brew tap brewsci/science
 view pcl install options
 $> brew options pcl
 install PCL
