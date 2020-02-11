@@ -38,13 +38,13 @@ Install via Homebrew
 1. install homebrew
 2. update homebrew
     $> brew update
-   
 3. add homebrew science tap
     $> brew tap brewsci/science
-view pcl install options
-$> brew options pcl
-install PCL
-$> brew install pcl
+4. view pcl install options
+    $> brew options pcl
+5. install PCL
+    $> brew install pcl
+
 Prebuilt Binaries via Universal Installer
 http://www.pointclouds.org/downloads/macosx.html
 NOTE: very old version
