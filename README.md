@@ -61,3 +61,5 @@ NOTE: very old version
 [PCL Source Github](https://github.com/PointCloudLibrary/pcl)
 
 [PCL Mac Compilation Docs](http://www.pointclouds.org/documentation/tutorials/compiling_pcl_macosx.php)
+
+The code takes as input point cloud data of a sequence of frames and for every single frame, segmentPlane function is run using Ransac algorithm to separate road points from obstacle points. The clustering algorithm then uses a KD-tree search algorithm for clustering obstacle clouds.
