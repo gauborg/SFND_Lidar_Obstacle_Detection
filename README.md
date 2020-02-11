@@ -26,10 +26,13 @@ cd ~
 4. make
 5. /environment
 
+
 Windows
 http://www.pointclouds.org/downloads/windows.html
 
+
 MAC
+
 Install via Homebrew
 install homebrew
 update homebrew
